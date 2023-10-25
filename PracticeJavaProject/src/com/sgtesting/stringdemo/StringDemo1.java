@@ -2,6 +2,7 @@ package com.sgtesting.stringdemo;
 
 public class StringDemo1 {
 	public static void main(String[] args) {
+		String s="SUNDAYMONDAYTUESDAYWEDNES";
 		lowercaseDemo();
 		uppercaseDemo();
 		strLength();
@@ -44,6 +45,7 @@ public class StringDemo1 {
 	private static void extractCharBasedOnIndex()
 	{
 		String s1=new String("WELCOME");
+	
 		System.out.println("Character at 3rd Position:"+s1.charAt(3));
 		System.out.println("--------------");
 	}
@@ -68,7 +70,7 @@ public class StringDemo1 {
 	
 	private static void repalceString()
 	{
-		String s1="It is a new palace";
+		String s1="It is a new is palace is";
 		String s2=s1.replace("is",	"was");
 		System.out.println("Replaced Result :"+s2);
 		System.out.println("--------------");
