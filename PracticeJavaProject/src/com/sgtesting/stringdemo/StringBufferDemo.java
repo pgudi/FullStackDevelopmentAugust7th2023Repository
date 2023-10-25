@@ -1,12 +1,13 @@
 package com.sgtesting.stringdemo;
 
 public class StringBufferDemo {
-
+	
 	public static void main(String[] args) {
 		appendDemo();
 		insertDemo();
 		deleteDemo();
 		reverseDemo();
+		
 	}
 	
 	private static void appendDemo()
