@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testing">
+	<test name="testing">
+		<classes>
+			<class name="com.gentech.users.Users">
+				<methods>
+					<include name="createUser"></include>
+				</methods>
+			</class>
+			<class name="com.gentech.products.Products">
+				<methods>
+					<exclude name="modifyProduct"></exclude>>
+					<exclude name="deleteProduct"></exclude>>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
