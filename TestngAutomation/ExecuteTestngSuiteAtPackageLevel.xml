@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Testcases">
+	<test name="testcases">
+		<packages>
+			<package name="com.gentech.users"></package>
+			<package name="com.gentech.products"></package>
+		</packages>
+	</test>
+</suite>

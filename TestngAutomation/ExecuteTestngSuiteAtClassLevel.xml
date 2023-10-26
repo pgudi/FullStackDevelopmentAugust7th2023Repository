@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Unit Testcases">
+	<test name="users and products">
+		<classes>
+			<class name="com.gentech.users.Users"></class>
+			<class name="com.gentech.products.Products"></class>
+		</classes>
+	</test>
+</suite>
